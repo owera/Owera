@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2868732B6768DB00E66F14 /* OweraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868722B6768DB00E66F14 /* OweraApp.swift */; };
+		DC2868752B6768DB00E66F14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868742B6768DB00E66F14 /* ContentView.swift */; };
+		DC2868772B6768DB00E66F14 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868762B6768DB00E66F14 /* Item.swift */; };
+		DC2868792B6768DC00E66F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2868782B6768DC00E66F14 /* Assets.xcassets */; };
+		DC28687D2B6768DC00E66F14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC28687C2B6768DC00E66F14 /* Preview Assets.xcassets */; };
+		DC2868882B6768DD00E66F14 /* OweraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868872B6768DD00E66F14 /* OweraTests.swift */; };
+		DC2868922B6768DD00E66F14 /* OweraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868912B6768DD00E66F14 /* OweraUITests.swift */; };
+		DC2868942B6768DD00E66F14 /* OweraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2868932B6768DD00E66F14 /* OweraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2868842B6768DD00E66F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2868672B6768DB00E66F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28686E2B6768DB00E66F14;
+			remoteInfo = Owera;
+		};
+		DC28688E2B6768DD00E66F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2868672B6768DB00E66F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC28686E2B6768DB00E66F14;
+			remoteInfo = Owera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC28686F2B6768DB00E66F14 /* Owera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Owera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2868722B6768DB00E66F14 /* OweraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweraApp.swift; sourceTree = "<group>"; };
+		DC2868742B6768DB00E66F14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC2868762B6768DB00E66F14 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DC2868782B6768DC00E66F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC28687A2B6768DC00E66F14 /* Owera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Owera.entitlements; sourceTree = "<group>"; };
+		DC28687C2B6768DC00E66F14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC28687E2B6768DC00E66F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2868832B6768DD00E66F14 /* OweraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OweraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2868872B6768DD00E66F14 /* OweraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweraTests.swift; sourceTree = "<group>"; };
+		DC28688D2B6768DD00E66F14 /* OweraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OweraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2868912B6768DD00E66F14 /* OweraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweraUITests.swift; sourceTree = "<group>"; };
+		DC2868932B6768DD00E66F14 /* OweraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OweraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC28686C2B6768DB00E66F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2868802B6768DD00E66F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28688A2B6768DD00E66F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2868662B6768DB00E66F14 = {
+			isa = PBXGroup;
+			children = (
+				DC2868712B6768DB00E66F14 /* Owera */,
+				DC2868862B6768DD00E66F14 /* OweraTests */,
+				DC2868902B6768DD00E66F14 /* OweraUITests */,
+				DC2868702B6768DB00E66F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2868702B6768DB00E66F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC28686F2B6768DB00E66F14 /* Owera.app */,
+				DC2868832B6768DD00E66F14 /* OweraTests.xctest */,
+				DC28688D2B6768DD00E66F14 /* OweraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2868712B6768DB00E66F14 /* Owera */ = {
+			isa = PBXGroup;
+			children = (
+				DC2868722B6768DB00E66F14 /* OweraApp.swift */,
+				DC2868742B6768DB00E66F14 /* ContentView.swift */,
+				DC2868762B6768DB00E66F14 /* Item.swift */,
+				DC2868782B6768DC00E66F14 /* Assets.xcassets */,
+				DC28687A2B6768DC00E66F14 /* Owera.entitlements */,
+				DC28687E2B6768DC00E66F14 /* Info.plist */,
+				DC28687B2B6768DC00E66F14 /* Preview Content */,
+			);
+			path = Owera;
+			sourceTree = "<group>";
+		};
+		DC28687B2B6768DC00E66F14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC28687C2B6768DC00E66F14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC2868862B6768DD00E66F14 /* OweraTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2868872B6768DD00E66F14 /* OweraTests.swift */,
+			);
+			path = OweraTests;
+			sourceTree = "<group>";
+		};
+		DC2868902B6768DD00E66F14 /* OweraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2868912B6768DD00E66F14 /* OweraUITests.swift */,
+				DC2868932B6768DD00E66F14 /* OweraUITestsLaunchTests.swift */,
+			);
+			path = OweraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC28686E2B6768DB00E66F14 /* Owera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2868972B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "Owera" */;
+			buildPhases = (
+				DC28686B2B6768DB00E66F14 /* Sources */,
+				DC28686C2B6768DB00E66F14 /* Frameworks */,
+				DC28686D2B6768DB00E66F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Owera;
+			productName = Owera;
+			productReference = DC28686F2B6768DB00E66F14 /* Owera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2868822B6768DD00E66F14 /* OweraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28689A2B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "OweraTests" */;
+			buildPhases = (
+				DC28687F2B6768DD00E66F14 /* Sources */,
+				DC2868802B6768DD00E66F14 /* Frameworks */,
+				DC2868812B6768DD00E66F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2868852B6768DD00E66F14 /* PBXTargetDependency */,
+			);
+			name = OweraTests;
+			productName = OweraTests;
+			productReference = DC2868832B6768DD00E66F14 /* OweraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC28688C2B6768DD00E66F14 /* OweraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC28689D2B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "OweraUITests" */;
+			buildPhases = (
+				DC2868892B6768DD00E66F14 /* Sources */,
+				DC28688A2B6768DD00E66F14 /* Frameworks */,
+				DC28688B2B6768DD00E66F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC28688F2B6768DD00E66F14 /* PBXTargetDependency */,
+			);
+			name = OweraUITests;
+			productName = OweraUITests;
+			productReference = DC28688D2B6768DD00E66F14 /* OweraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2868672B6768DB00E66F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DC28686E2B6768DB00E66F14 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DC2868822B6768DD00E66F14 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DC28686E2B6768DB00E66F14;
+					};
+					DC28688C2B6768DD00E66F14 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DC28686E2B6768DB00E66F14;
+					};
+				};
+			};
+			buildConfigurationList = DC28686A2B6768DB00E66F14 /* Build configuration list for PBXProject "Owera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2868662B6768DB00E66F14;
+			productRefGroup = DC2868702B6768DB00E66F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC28686E2B6768DB00E66F14 /* Owera */,
+				DC2868822B6768DD00E66F14 /* OweraTests */,
+				DC28688C2B6768DD00E66F14 /* OweraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC28686D2B6768DB00E66F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28687D2B6768DC00E66F14 /* Preview Assets.xcassets in Resources */,
+				DC2868792B6768DC00E66F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2868812B6768DD00E66F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28688B2B6768DD00E66F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC28686B2B6768DB00E66F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2868752B6768DB00E66F14 /* ContentView.swift in Sources */,
+				DC2868772B6768DB00E66F14 /* Item.swift in Sources */,
+				DC2868732B6768DB00E66F14 /* OweraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC28687F2B6768DD00E66F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2868882B6768DD00E66F14 /* OweraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2868892B6768DD00E66F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2868922B6768DD00E66F14 /* OweraUITests.swift in Sources */,
+				DC2868942B6768DD00E66F14 /* OweraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2868852B6768DD00E66F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28686E2B6768DB00E66F14 /* Owera */;
+			targetProxy = DC2868842B6768DD00E66F14 /* PBXContainerItemProxy */;
+		};
+		DC28688F2B6768DD00E66F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC28686E2B6768DB00E66F14 /* Owera */;
+			targetProxy = DC28688E2B6768DD00E66F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC2868952B6768DD00E66F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC2868962B6768DD00E66F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DC2868982B6768DD00E66F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Owera/Owera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Owera/Preview Content\"";
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Owera/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.Owera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2868992B6768DD00E66F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Owera/Owera.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Owera/Preview Content\"";
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Owera/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.Owera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC28689B2B6768DD00E66F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.OweraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Owera";
+			};
+			name = Debug;
+		};
+		DC28689C2B6768DD00E66F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.OweraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Owera";
+			};
+			name = Release;
+		};
+		DC28689E2B6768DD00E66F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.OweraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Owera;
+			};
+			name = Debug;
+		};
+		DC28689F2B6768DD00E66F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKM8H8USS5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.owera.OweraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Owera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC28686A2B6768DB00E66F14 /* Build configuration list for PBXProject "Owera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2868952B6768DD00E66F14 /* Debug */,
+				DC2868962B6768DD00E66F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2868972B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "Owera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2868982B6768DD00E66F14 /* Debug */,
+				DC2868992B6768DD00E66F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC28689A2B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "OweraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28689B2B6768DD00E66F14 /* Debug */,
+				DC28689C2B6768DD00E66F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC28689D2B6768DD00E66F14 /* Build configuration list for PBXNativeTarget "OweraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC28689E2B6768DD00E66F14 /* Debug */,
+				DC28689F2B6768DD00E66F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2868672B6768DB00E66F14 /* Project object */;
+}
